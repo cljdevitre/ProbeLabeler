@@ -1,2 +1,2 @@
 # ProbeLabeler
-Automatically label JEOL EMPA images
+This code is designed to automatically label JEOL EMPA images.
