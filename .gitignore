@@ -8,3 +8,5 @@ ipynb_checkpoints
 *.orig
 *.ini
 /Testing/*
+/docs/Image_examples/*
+/docs/Data_Folder/*

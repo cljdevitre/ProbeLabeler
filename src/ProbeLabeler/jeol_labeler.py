@@ -60,7 +60,7 @@ def named_color_to_rgb(name):
     """
     return mcolors.to_rgba(name)[:3]
 
-def annotate_image(image_path, data_path, data_table_name, sheet_name, image_file_name, config=ImageAnnotatorConfig(), plot_result=True,save_fig='png',show_bbox=True):
+def annotate_image(image_path, data_path, data_table_name, sheet_name, image_file_name, config=ImageAnnotatorConfig(), plot_result=True,save_fig='pdf',show_bbox=True):
     """
     Annotate an image from JEOL microprobe with data points and text annotations. The data should have a Sample column, X and Y positions.
 
@@ -220,7 +220,7 @@ def annotate_image(image_path, data_path, data_table_name, sheet_name, image_fil
     except FileNotFoundError as e:
         print(e)
 
-def process_images(image_path, data_path, data_table, sheet_name, config=ImageAnnotatorConfig(), image_extension='.tif',plot_result=False, save_fig='pdf', show_bbox=False):
+def process_images(image_path, data_path, data_table, sheet_name, config=ImageAnnotatorConfig(), image_extension='.tif',plot_result=False, save_fig='pdf', show_bbox=True):
     """
     Process a batch of images with the same configuration.
 

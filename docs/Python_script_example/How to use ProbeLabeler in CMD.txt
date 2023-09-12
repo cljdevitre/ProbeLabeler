@@ -1,0 +1,16 @@
+If you use ProbeLabeler from a command line, you will need to install Python (either directly or through Anaconda or Mamba, etc)
+
+Here is an example of command sequences using Anaconda (note: for clarity, cmd commands are tabbed in this document):
+
+	conda activate my_env
+	pip install "file:C:/ProbeLabeler" 
+
+Next, navigate to the folder where the script is contained
+	cd docs/Python_script_example
+
+Now, let's run the script
+	python an_single_image.py
+
+This will run the code for labeling a single image. This is an example, it will work with the example provided in ProbeLabeler.
+
+!!!!!!!!!!!! NOTE : Once you're ready to run your own, make sure to go into the script and edit necessary fields to work with your own images and data.  

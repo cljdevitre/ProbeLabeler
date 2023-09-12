@@ -32,7 +32,6 @@ setup(
             'pandas',
             'numpy',
             'matplotlib',
-            'os',
             'tqdm'
             ],
 
